@@ -7,12 +7,7 @@ const router = express.Router();
 // Load User model
 const User = require('../../models/User');
 
-// @route   GET api/users/test
-// @desc    Tests users route
-// @access  Public
-router.get('/test', (req, res) => res.json({ msg: "Users Works!" }));
-
-// @route   GET api/users/register
+// @route   POST api/users/register
 // @desc    Register users route
 // @access  Public
 router.post('/register', (req, res) => {
@@ -44,5 +39,36 @@ router.post('/register', (req, res) => {
             }
         })
 });
+
+// @route   POST api/users/login
+// @desc    Login User / Returning JWT Token
+// @access  Public
+router.post('/login', (req, res) => {
+    const email = req.body.email;
+    const password = req.body.password;
+
+    // Find user by email
+    User.findOne({ email })
+        .then(user => {
+            // Check for user
+            console.log(`----------------------------`);
+            console.log(user);
+            console.log(`----------------------------`);
+            if(!user) {
+                return  res.status(400).json({ email: 'User not found' })
+            }
+            // Check Password
+            bcrypt.compare(password, user.password).then(isMatch => {
+                if(isMatch) {
+                    res.json({ msg: 'Success' })
+                } else {
+                    return res.status(400).json({ password: 'Password incorrect' })
+                }
+        });
+    })
+});
+
+
+
 
 module.exports = router;
