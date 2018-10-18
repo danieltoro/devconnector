@@ -20,6 +20,12 @@ class Register extends Component {
         this.onSubmit = this.onSubmit.bind(this);
     }
 
+    componentWillReceiveProps(nextProps) {
+        if(nextProps.errors) {
+            this.setState({ errors: nextProps.errors })
+        }
+    }
+
     onChange(e) {
         this.setState({ [e.target.name]: e.target.value });
     }
@@ -36,18 +42,15 @@ class Register extends Component {
 
         this.props.registerUser(newUser);
 
-
     }
 
 
     render() {
         const { errors } = this.state;
 
-        const { user } = this.props.auth;
 
         return (
             <div className="register">
-                { user ? user.name : null }
                 <div className="container">
                     <div className="row">
                         <div className="col-md-8 m-auto">
@@ -119,11 +122,13 @@ class Register extends Component {
 
 Register.propTypes = {
     registerUser: PropTypes.func.isRequired,
-    auth: PropTypes.object.isRequired
+    auth: PropTypes.object.isRequired,
+    errors: PropTypes.object.isRequired
 };
 
 const mapStateToProps = (state) => ({
-    auth: state.auth
+    auth: state.auth,
+    errors: state.errors
 });
 
 
