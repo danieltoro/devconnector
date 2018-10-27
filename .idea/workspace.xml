@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5a6bb51-043b-4f59-b8ae-5787628296c2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/components/add-credentials/AddEducation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/add-credentials/AddExperience.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/dashboard/Education.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/dashboard/Experience.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/edit-profile/EditProfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/profile/Profile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/profile/ProfileAbout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/profile/ProfileCreds.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/profile/ProfileGithub.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/profile/ProfileHeader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/profiles/ProfileItems.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/profiles/Profiles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/danieltoro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/danieltoro.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/actions/profileActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/profileActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/dashboard/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/dashboard/Dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/dashboard/ProfileActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/dashboard/ProfileActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/layout/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/layout/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/reducers/profileReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/reducers/profileReducer.js" afterDir="false" />
-    </list>
+    <list default="true" id="b5a6bb51-043b-4f59-b8ae-5787628296c2" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -48,8 +26,8 @@
       <file leaf-file-name="Profile.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/src/components/profile/Profile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="584">
-              <caret line="59" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
+            <state relative-caret-position="677">
+              <caret line="38" column="35" lean-forward="true" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -326,7 +304,7 @@
       <workItem from="1539476507878" duration="23505000" />
       <workItem from="1539658287163" duration="50167000" />
       <workItem from="1540520759004" duration="110000" />
-      <workItem from="1540520885184" duration="3758000" />
+      <workItem from="1540520885184" duration="3917000" />
     </task>
     <task id="LOCAL-00001" summary="Finish backend">
       <created>1539642811274</created>
@@ -370,11 +348,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540177507908</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Profile">
+      <created>1540524783929</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1540524783929</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97678000" />
+    <option name="totallyTimeSpent" value="97837000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -386,15 +371,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1291" height="1440" extended-state="6" />
+    <frame x="0" y="0" width="1346" height="1440" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21653543" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20754717" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32980332" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5016313" side_tool="true" weight="0.27155825" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.5026415" side_tool="true" visible="true" weight="0.27155825" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49921876" weight="0.32980332" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49836868" visible="true" weight="0.27155825" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4973585" visible="true" weight="0.27155825" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4985119" weight="0.34039333" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -440,7 +425,8 @@
     <MESSAGE value="Redux" />
     <MESSAGE value="added a private route for dashboard" />
     <MESSAGE value="Profile functionalities" />
-    <option name="LAST_COMMIT_MESSAGE" value="Profile functionalities" />
+    <MESSAGE value="Profile" />
+    <option name="LAST_COMMIT_MESSAGE" value="Profile" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -825,8 +811,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/components/profile/Profile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="59" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
+        <state relative-caret-position="677">
+          <caret line="38" column="35" lean-forward="true" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
